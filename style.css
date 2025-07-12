@@ -316,3 +316,30 @@ textarea {
 .submit-btn:hover {
   background-color: #c4bbf4;
 }
+
+ footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      border-top: 1px solid #eee;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+
+    .footer-logo {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #4E47FF;
+    }
+     .footer-nav {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-nav a {
+      color: #6b7280;
+      text-decoration: none;
+      font-weight: 500;
+    }
