@@ -63,7 +63,7 @@ main{
     padding: 2rem;
     max-width: 1140px;
     max-height: 328px;
-    background-color: #FFFFFF;
+    background-color:#FFFFFF;
     margin: auto;
 }
 section {
@@ -202,7 +202,47 @@ section {
   color: #B3B3B3;
 }
 
+.focus-section { 
+  padding: 71px 150px;
+  background-color: #FFFFFF;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  max-width: 1140px;
+  max-height: 600px;
+}
+.focus-content h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 16px;
+}
 
+.focus-content p {
+  font-size: 14px;
+  color: #555;
+}
+ .free-btn {
+  display: inline-block;
+  background-color: #c4bbf4; 
+  color: #FFFFFF;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.free-btn:hover {
+   background-color: #5E47FF
+}
+.focus-image {
+  margin-top: 40px;
+}
+.focus-image img {
+  max-width: 840px;
+  max-height: 320px;
+  border-radius: 48px;
+}
 
 
 
